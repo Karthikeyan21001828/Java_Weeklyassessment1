@@ -45,6 +45,7 @@ public class Main
 ## 2.Write a Java program to compare two numbers
 ### Program
 ```
+import java.util.Scanner;
 public class Main
 {
     public static void main(String[] args)
@@ -75,6 +76,24 @@ public class Main
 ![image](https://user-images.githubusercontent.com/93427303/224342317-93ec69f7-8b6f-4d5e-838f-726d7921c668.png)
 
 ## 3.Write a Java program to convert a string to an integer
+### Program
+```
+import java.util.Scanner;
+public class Main1
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        String s1=sc.nextLine();
+        int i=Integer.parseInt(s1);
+        System.out.println("Converted Number is "+i);
+    }
+}
+```
+### Output:
+![image](https://user-images.githubusercontent.com/93427303/224343525-a49d6a2a-03a2-4af5-87c5-8bafde8b8f5a.png)
+
+## 4.Java Program to find area of rhombus
 ### Program
 ```
 
