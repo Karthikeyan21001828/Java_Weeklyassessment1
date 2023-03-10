@@ -79,7 +79,7 @@ public class Main
 ### Program
 ```
 import java.util.Scanner;
-public class Main1
+public class Main
 {
     public static void main(String[] args)
     {
@@ -94,6 +94,26 @@ public class Main1
 ![image](https://user-images.githubusercontent.com/93427303/224343525-a49d6a2a-03a2-4af5-87c5-8bafde8b8f5a.png)
 
 ## 4.Java Program to find area of rhombus
+### Program
+```
+import java.util.Scanner;
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter Two diagonal of a rhombus:");
+        int d1=sc.nextInt();
+        int d2=sc.nextInt();
+        int area=(d1*d2)/2;
+        System.out.println("Area of rhombus="+area);
+    }
+}
+```
+### Output:
+![image](https://user-images.githubusercontent.com/93427303/224345048-27533380-2b63-4975-a585-b20b471075d2.png)
+
+## 5.Write a Java program to find the number of days in a month
 ### Program
 ```
 
