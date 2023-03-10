@@ -3,7 +3,8 @@
 ### Program
 ```
 import java.util.Scanner;
-public class Main1 {
+public class Main 
+{
     public static void main(String[] args)
     {
         Scanner sc=new Scanner(System.in);
@@ -44,5 +45,40 @@ public class Main1 {
 ## 2.Write a Java program to compare two numbers
 ### Program
 ```
+public class Main
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int n1=sc.nextInt();
+        int n2=sc.nextInt();
+        if(n1==n2)
+        {
+            System.out.println("Both the numbers are equal.");
+        }
+        else
+        {
+            System.out.println("Both numbers are not equal.");
+            if(n1>n2)
+            {
+                System.out.println("Since first number greater than second number.");
+            }
+            else
+            {
+                System.out.println("Since second number greater than first number.");
+            }
+        }
+    }
+}
 ```
 ### Output:
+![image](https://user-images.githubusercontent.com/93427303/224342317-93ec69f7-8b6f-4d5e-838f-726d7921c668.png)
+
+## 3.Write a Java program to convert a string to an integer
+### Program
+```
+
+```
+### Output:
+
+
